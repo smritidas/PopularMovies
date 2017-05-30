@@ -11,10 +11,10 @@ public class Movie implements Parcelable{
     //Added LOG tag for debugging
     private static final String LOG_TAG = Movie.class.getSimpleName();
 
-    private String mTitle;
-    private String mYear;
-    private String mTrailerPrimaryUri;
-    private String mThumbnail;
+    String mTitle;
+    String mYear;
+    String mTrailerPrimaryUri;
+    String mThumbnail;
 
 
     private Movie(Parcel in){
